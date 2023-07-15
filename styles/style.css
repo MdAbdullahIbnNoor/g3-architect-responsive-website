@@ -24,7 +24,7 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 50px;
+    /* justify-content: space-between; */
 }
 
 nav li {
@@ -32,6 +32,8 @@ nav li {
     font-size: 1rem;
     font-weight: 500;
     list-style: none;
+    margin-right: 40px;
+    
 }
 
 nav li a {
@@ -45,7 +47,7 @@ nav li a {
 }
 
 .banner h3 {
-    width: 45%;
+    max-width: 55%;
     margin: 0px auto;
     color: #131313;
     font-size: 4em;
@@ -54,7 +56,7 @@ nav li a {
 }
 
 .banner p {
-    width: 65%;
+    max-width: 65%;
     margin: 0px auto;
     color: #727272;
     font-size: 1rem;
@@ -62,9 +64,10 @@ nav li a {
     margin-bottom: 30px;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
+
 .btn-primary {
     border: none;
     border-radius: 8px;
@@ -75,4 +78,45 @@ nav li a {
     color: #FFF;
     font-size: 1.3em;
     font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+
+    /* header style */
+    header {
+        padding: 20px 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .banner h3 {
+        max-width: 85%;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .banner p {
+        max-width: 90%;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    header {
+        padding: 35px 100px;
+    }
+    
+    .nav-title {
+        font-size: 1.9rem;
+        font-weight: 700;
+    }
+
 }

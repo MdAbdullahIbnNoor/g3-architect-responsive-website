@@ -145,7 +145,7 @@ main {
 }
 
 .feature-info-container {
-    max-width: 38%;
+    max-width: 40%;
 }
 
 .feature-info-container h1 {
@@ -164,8 +164,8 @@ main {
 }
 
 .box {
-    margin: 30px 0px 20px 0px;
-    padding: 25px 35px 30px 33px;
+    margin: 20px 0px 20px 0px;
+    padding: 25px;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
@@ -185,16 +185,29 @@ main {
     margin-top: 0px;
 }
 
-.feature-container-img button {
+
+.ten-years-badge {
     text-align: center;
+    padding: 42px;
+    position: relative;
+    top: -85px;
+    left: -90px;
+    border-radius: 8px;
+    background: #FF900E;
+    max-width: 45%;
+}
+
+.ten-years-badge h2 {
+    color: #FFF;
     font-size: 4rem;
     font-weight: 700;
-    padding: 42px;
-    width: 45%;
-    z-index: 1;
-    position: relative;
-    top: -70px;
-    left: -90px;
+    margin: 0px;
+}
+
+.ten-years-badge p {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .Experience {
@@ -203,14 +216,118 @@ main {
 }
 
 .feature-container-img img {
-    width: 100%;
+    max-width: 100%;
+    height: 95%;
+}
+
+.facts {
+    max-width: 85%;
+    margin: 0px auto;
+}
+
+.facts h2 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.facts p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
+.achivement-container {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    gap: 125px;
+    width: 85%;
+    margin: 100px auto;
+    /* transform: rotate(90deg);  */
 
+}
 
+.box-achivement {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 50px 35px 30px 35px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
 
+.box-achivement img {
+    width: 30%;
+    margin-bottom: 10px;
+}
 
+.box-achivement h2 {
+    color: #424242;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0px 0px 5px 0px;
+}
+
+.box-achivement p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px;
+
+}
+
+.sponsor-section {
+    width: 85%;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+.sponsor-section h2 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponsor-section p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.sponsor-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    mix-blend-mode: luminosity;
+}
+
+.sponsor-icon img {
+    mix-blend-mode: luminosity;
+}
+
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 85%;
+    height: 80px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #424242;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
@@ -283,6 +400,70 @@ main {
     .teams-info-container p {
         width: 100%;
         margin-bottom: 18px;
+    }
+
+    .feature-section-container {
+        flex-direction: column-reverse;
+        margin: 80px auto;
+        gap: 40px;
+        max-width: 95%;
+    }
+
+    .feature-info-container {
+        max-width: 100%;
+    }
+
+    .feature-info-container h1 {
+        color: #131313;
+        font-size: 2.25rem;
+        border-left: 0px;
+        border-bottom: 5px solid #FF900E;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .box {
+        margin: 10px 0px 10px 0px;
+        padding: 15px 20px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+
+    .feature-container-img img {
+        max-width: 100%;
+        height: 80%;
+    }
+
+    .ten-years-badge {
+        padding: 15px 35px;
+        position: relative;
+        top: -50px;
+        left: 0px;
+        max-width: 40%;
+        margin: 0px auto;
+    }
+
+    .ten-years-badge h2 {
+        font-size: 2rem;
+    }
+
+    .Experience {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .achivement-container {
+        flex-direction: column;
+        gap: 25px;
+        width: 95%;
+        margin: 10px auto;
+
+    }
+
+    .facts p {
+        margin-bottom: 50px;
     }
 
 }

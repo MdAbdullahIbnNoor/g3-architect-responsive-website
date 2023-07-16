@@ -466,6 +466,25 @@ main {
         margin-bottom: 50px;
     }
 
+    .sponsor-icon {
+        gap: 50px;
+        mix-blend-mode: luminosity;
+    }
+
+    .sponsor-icon {
+        overflow: scroll;
+    }
+
+    .footer {
+        width: 100%;
+        height: 80px;
+        margin: 20px auto;
+    }
+
+    .footer p {
+        width: 80%;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width: 992px) {
